@@ -6,3 +6,16 @@ button{
     display: flex;
     justify-content: end;
 }
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+}
+
+.emojy{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
