@@ -4,8 +4,7 @@ async function getEmoji() {
     animeList = ""
     emoji.data.forEach(anime => {
         animeList += `<h3>${anime.synopsis}</h3>
-                    <img src="${anime.images.jpg.large_image_url}" alt="">
-                     <button onclick ="saludar('${anime.synopsis}')">Saludar </button>`    
+                    <img src="${anime.images.jpg.large_image_url}" alt="">`    
     });
     console.log(animeList)
 
